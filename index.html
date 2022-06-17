@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-fluid">
+        <div class="pattern" id="pattern">
+          <div class="intro">
+            <h1>
+              Learn to code by <br />
+              watching others
+            </h1>
+          </div>
+          <div class="intro-text">
+            <p>
+              See how experienced developers solve problems in real-time. <br />
+              Watching scripted tutorials is great, but understanding how <br />
+              developers think is invaluable.
+            </p>
+          </div>
+        </div>
+
+        <div class="form-area">
+          <div class="col-2">
+            <div class="form-title">
+              <strong>Try it for free 7 days</strong> then $20/mo. thereafter
+            </div>
+
+            <div class="form-content">
+              <div class="separator" id="validate">
+                <form role="form" action="" class="form">
+                  <input type="name" placeholder="First name" required="">
+                  <label for="name"><span>First Name cannot be empty</span></label>
+
+                  <input type="name" placeholder="Last name" required="">
+                  <label for="name"><span>Last name cannot be empty</span></label>
+
+                  <input type="email" id="address" placeholder="Email Address" required="">
+                  <label for="email" class="email" aria-describedby="user-hint" aria-label="user-hint"> <span>Email cannot be empty</span></label>
+
+                  <input type="password" placeholder="Password" required="">
+                  <label for="password"><span>Password cannot be empty</span></label>
+
+                  <button id="btn" type="submit" value="button" formtarget="#validate"> <a href="#validate">Claim Your Free Trial</a></button>
+                  <div class="last"><span class="terms">By clicking on this button you are agreeing to  our <span><a href="/" id="tem">Terms and Services</a></span></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  
+</html>
